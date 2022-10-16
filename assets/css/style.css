@@ -1,0 +1,38 @@
+/* section{
+    height:500px;
+    width: 100vw;
+    border: 2px solid orange;
+} */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+}
+
+.gallary{
+    height: 300px;
+    flex-grow: 1;
+    margin: 0 0 10px 10px;
+    flex-basis: 300;
+}
+
+.unplashg{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallary img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
